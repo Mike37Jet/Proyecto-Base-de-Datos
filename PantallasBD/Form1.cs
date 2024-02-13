@@ -40,5 +40,17 @@ namespace PantallasBD
         {
             Application.Exit();
         }
+
+        private void buttonEliminar_Click(object sender, EventArgs e)
+        {
+            FormEliminar formEliminar = new FormEliminar();
+            formEliminar.ShowDialog();
+        }
+
+        private void buttonActualizar_Click(object sender, EventArgs e)
+        {
+            FormActualizar formActualizar = new FormActualizar();
+            formActualizar.ShowDialog();
+        }
     }
 }
